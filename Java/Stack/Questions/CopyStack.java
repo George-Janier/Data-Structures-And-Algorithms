@@ -1,4 +1,5 @@
-import java.util.*;
+import java.util.Stack;
+import java.util.Scanner;
 public class CopyStack {
     public static void revStack(Stack<Integer> a, Stack<Integer> b){
         while (!a.isEmpty()) {
